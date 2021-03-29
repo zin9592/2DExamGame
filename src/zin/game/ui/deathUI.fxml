@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="250.0" style="-fx-background-color: GRAY;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zin.game.ui.DeathController">
+   <children>
+      <Label alignment="CENTER" text="캐릭터 사망" textAlignment="CENTER">
+         <font>
+            <Font name="휴먼중간팸체" size="30.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="30.0" />
+         </VBox.margin>
+      </Label>
+      <ImageView fx:id="exitBtn" fitHeight="28.0" fitWidth="141.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../effect/image/character/ui/exit_button.png" />
+         </image>
+      </ImageView>
+   </children>
+</VBox>

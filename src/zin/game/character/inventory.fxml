@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="250.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zin.game.character.InventoryController">
+   <children>
+      <AnchorPane fx:id="inventoryView" prefHeight="200.0" prefWidth="400.0">
+         <children>
+            <ImageView fitHeight="250.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../effect/image/character/ui/inventory.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="closeBtn" fitHeight="20.0" fitWidth="20.0" layoutX="376.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../bin/zin/game/effect/image/character/ui/close_button.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: GRAY;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zin.game.window.TitleWindowController">
+   <top>
+      <Label alignment="CENTER" prefHeight="75.0" prefWidth="203.0" text="2D Game Exam" textAlignment="CENTER" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="HYtbrB" size="25.0" />
+         </font>
+      </Label>
+   </top>
+   <bottom>
+      <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="startBtn" fitHeight="54.0" fitWidth="148.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../effect/image/character/ui/start_button.png" />
+               </image>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </ImageView>
+            <ImageView fx:id="keyBtn" fitHeight="37.0" fitWidth="172.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../effect/image/character/ui/key_button.png" />
+               </image>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </ImageView>
+            <ImageView fx:id="exitBtn" fitHeight="37.0" fitWidth="189.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../effect/image/character/ui/exit_button.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+   </bottom>
+</BorderPane>
